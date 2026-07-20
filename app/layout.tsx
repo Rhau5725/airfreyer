@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import "./globals.css";export const metadata:Metadata={title:"Air Fryer Fit — +100 receitas",description:"108 receitas fit rápidas e fáceis, feitas exclusivamente na Air Fryer."};export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="pt-BR"><body>{children}</body></html>}
